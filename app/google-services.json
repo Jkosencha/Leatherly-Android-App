@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303718674813",
+    "project_id": "leatherly-shopping-app",
+    "storage_bucket": "leatherly-shopping-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303718674813:android:09a50b1f692ac030061c14",
+        "android_client_info": {
+          "package_name": "com.example.leatherlyappshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303718674813-ghpe0tcq1q4gth5qtve04m6s5ojn9ee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8lLNbLtjgVQ5D-64MKL_3qBmTkdTaSBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303718674813-ghpe0tcq1q4gth5qtve04m6s5ojn9ee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

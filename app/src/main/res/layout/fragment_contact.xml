@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.contact.ContactFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="294dp"
+        android:layout_height="434dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        app:cardElevation="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Get In Touch"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feel free to drop us a line below!"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/personName"
+                android:layout_width="230dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Your Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailAddress"
+                android:layout_width="230dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Your Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="231dp"
+                android:layout_height="74dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Your Message" />
+
+            <Button
+                android:id="@+id/sendbtn"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:backgroundTint="@color/black"
+                android:text="Send"
+                android:textColor="@color/white"
+                app:cornerRadius="20dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="276dp"
+        android:layout_height="303dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/purple_700"
+        app:cardElevation="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Contact Us"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="15dp"
+                android:text="leatherly254@gmail.com"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:drawablePadding="15dp"
+                android:text="+254704239554"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:drawablePadding="15dp"
+                android:text="+254718032842"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_baseline_pin_drop_24"
+                android:drawablePadding="15dp"
+                android:text="29, Avenue ve Nairobi, 03343 Kenya"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

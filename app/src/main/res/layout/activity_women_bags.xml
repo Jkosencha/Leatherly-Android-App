@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WomenBagsActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageproduct1"
+            android:layout_width="146dp"
+            android:layout_height="142dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/splashscreen" />
+
+        <TextView
+            android:id="@+id/product1"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:padding="8dp"
+            android:text="Product1"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="144dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/product1"
+            android:padding="8dp"
+            android:text="$50.00"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
